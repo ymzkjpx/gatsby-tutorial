@@ -1,12 +1,11 @@
 import * as React from 'react'
+import Layout from './layout'
 
 const AboutPage = () =>{
     return(
-        <main>
-            <title>About me</title>
-            <h1>About Me</h1>
-            <p>Hi there!</p>
-        </main>
+        <Layout pageTile="About me">
+            <p>About me.</p>
+        </Layout>
     )
 }
 export default AboutPage
