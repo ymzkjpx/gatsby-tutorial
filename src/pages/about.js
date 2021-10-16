@@ -1,9 +1,9 @@
 import * as React from 'react'
-import Layout from './layout'
+import Layout from '../components/layout'
 
 const AboutPage = () =>{
     return(
-        <Layout pageTile="About me">
+        <Layout pageTitle="About me">
             <p>About me.</p>
         </Layout>
     )

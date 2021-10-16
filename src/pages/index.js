@@ -1,9 +1,9 @@
 import * as React from 'react'
-import Layout from './layout'
+import Layout from '../components/layout'
 
 const IndexPage = () =>{
   return(
-    <Layout pageTile="MyPage">
+    <Layout pageTitle="MyPage">
       <p>My home page.</p>
     </Layout>
   )
