@@ -1,11 +1,21 @@
 .container {
+    max-width: 44rem;
     margin: auto;
-    max-width: 500px;
+    padding: 2rem;
+    font-size: 24px;
     font-family: sans-serif;
+    line-height: 1.5rem;
 }
 
 .heading{
     color: rebeccapurple;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0rem;
 }
 
 .nav-links {

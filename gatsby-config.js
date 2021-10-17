@@ -1,17 +1,6 @@
-module.exports={
-  siteMetadata: {
-    title: "My Home Page",
-  },
-  plugins:[
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-  ]
-}
-
-
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Study in Gatsby.`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -24,6 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -61,7 +51,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
