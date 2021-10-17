@@ -1,3 +1,14 @@
+module.exports={
+  siteMetadata: {
+    title: "My Home Page",
+  },
+  plugins:[
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ]
+}
+
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
