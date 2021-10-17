@@ -7,15 +7,8 @@
     line-height: 1.5rem;
 }
 
-.heading{
-    color: rebeccapurple;
-}
-
-.site-title {
-    font-size: 3rem;
-    color: gray;
-    font-weight: 700;
-    margin: 3rem 0rem;
+.content-title{
+    color: #333;
 }
 
 .nav-links {
